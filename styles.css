@@ -2,10 +2,41 @@
     box-sizing: border-box;
 }
 
+body{
+    color: #F5F7F6;
+    background-color: #D1BBBC;
+    text-shadow: 1px 1px 1.5px #ED393D;
+}
+
+h1{
+    color: #41b3dc
+}
+
+h2{
+    color: #E4806D;
+}
+
+h3{
+    color: #E4806D;
+}
 /* Color Palette:
 Light shades: #F5F7F6
-Light Accent: D1BBBC
-Main Brand Color: 41B3DC
-Dark Accent:E4806D
-Dark Shades: ED393D
+Light Accent: #D1BBBC
+Main Brand Color: #41B3DC
+Dark Accent:#E4806D
+Dark Shades: #ED393D
 */
+
+.name{
+    color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    display: inline-block;
+
+}
+
+.img{
+    display: inline-block;
+    border-radius: 20%;
+    width:100px;
+}
