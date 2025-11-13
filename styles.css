@@ -40,3 +40,27 @@ Dark Shades: #ED393D
     border-radius: 20%;
     width:100px;
 }
+
+.navbar{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #41b3dc;
+}
+
+.navbar li{
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover{
+    background-color: #E4806D;
+}
