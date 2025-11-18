@@ -8,6 +8,20 @@ body{
     text-shadow: 1px 1px 1.5px #ED393D;
 }
 
+.prof_sec{
+    background-color: #E4806D;
+    padding: 10px;
+}
+
+ul{
+    background-color:#41b3dc;
+    
+}
+ol{
+    background-color:#41b3dc;
+    
+}
+
 h1{
     color: #41b3dc
 }
@@ -30,9 +44,11 @@ Dark Shades: #ED393D
 .name{
     color: aqua;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 18px;
+    font-size: 100px;
     display: inline-block;
-
+    background-color: #E4806D;
+    text-align: center;
+    padding: 10px;
 }
 
 .img{
@@ -63,4 +79,25 @@ Dark Shades: #ED393D
 
 .navbar li a:hover{
     background-color: #E4806D;
+    color: black;
+}
+
+.column {
+  float: none;
+  width: auto;
+  margin: 12px;
+}
+
+
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+
+
+p, ol, ul {
+  width: auto; /* Removes fixed 500px width */
 }
