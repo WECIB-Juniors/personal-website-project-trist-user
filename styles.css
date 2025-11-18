@@ -82,22 +82,30 @@ Dark Shades: #ED393D
     color: black;
 }
 
+.main-content{
+display: flex;
+flex-wrap: wrap;
+
+}
+
 .column {
-  float: none;
-  width: auto;
-  margin: 12px;
+  flex: 1;
+  min-width: 260px;
 }
 
+.left{
 
-
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
+}
+.middle{
+flex:2; 
 }
 
+.right{
 
+}
 
-p, ol, ul {
-  width: auto; /* Removes fixed 500px width */
+footer{
+    background-color: #41b3dc;
+    text-align: center;
+    padding: 8px;
 }
